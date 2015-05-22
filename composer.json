@@ -1,0 +1,19 @@
+{
+    "name": "frizzy/redis-connection-config-bundle",
+    "type": "symfony-bundle",
+    "description": "Redis connection config bundle",
+    "authors": [
+        {
+            "name": "Bernard van Niekerk",
+            "email": "bernard.van.niekerk@icloud.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2",
+        "symfony/yaml": "~2"
+    },
+    "autoload": {
+        "psr-4": {"Frizzy\\RedisConnectionConfigBundle\\": ""}
+    }
+}
